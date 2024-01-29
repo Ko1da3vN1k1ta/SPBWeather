@@ -105,8 +105,8 @@ class MainActivity : ComponentActivity() {
 
     }
     fun setTempreature (min:Int, max:Int){
-        var tm:Int = (min..max).random()
-        tempreatureText.setText("$tm°/$max°")
+        var temperature:Int = (min..max).random()
+        tempreatureText.setText("$temperature°/$max°")
     }
     fun setRandomPreasure(){
         var preasure:Int = (700..1400).random()

@@ -59,22 +59,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textAlignment="center"
             android:text="Preasure:"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/windText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:layout_gravity="center"
+            android:textAlignment="center"
             android:text="Wind(veter):"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/feelsLikeText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Feels like:"
@@ -83,7 +85,7 @@
 
         <TextView
             android:id="@+id/HumidityText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Humidity:"
