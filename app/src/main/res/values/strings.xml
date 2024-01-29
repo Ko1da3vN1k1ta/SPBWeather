@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SPBWeather</string>
+<string name="button_show">Show weather</string>
+    <string name="date">Saint-Petersburg</string>
+</resources>
